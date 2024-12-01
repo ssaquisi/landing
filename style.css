@@ -63,6 +63,10 @@ body {
   letter-spacing: 0.03rem;
 }
 
+.text-cart{
+  color: orange;
+}
+
 ul{
   list-style-type: none;
 }
@@ -83,6 +87,7 @@ h6,
   font-weight: var(--heading-font-weight);
   color: var(--heading-color);
   line-height: var(--heading-line-height);
+  font-weight: bold;
 }
 
 h1.light,
@@ -98,6 +103,7 @@ h5.light,
 h6.light,
 .h6 {
   color: var(--light-color);
+  font-weight: bold;
 }
 
 h1,
@@ -183,8 +189,8 @@ a {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #8C907E;
-  --bs-btn-border-color: #8C907E;
+  --bs-btn-bg: #f79000;
+  --bs-btn-border-color: #907e7e;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #5e624e;
   --bs-btn-hover-border-color: #5e624e;
@@ -620,7 +626,7 @@ a {
 /** Search Popup
 --------------------------------------------------------------*/
 .search-popup {
-  background-color: #fff;
+  background-color: #ccffa3;
   position: fixed;
   left: 0;
   top: 0;
@@ -1094,7 +1100,7 @@ a {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background: #8C907E;
+  background: #fff701;
 }
 
 .swiper-pagination-bullet {
